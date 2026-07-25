@@ -17,6 +17,7 @@ struct SwiftImage: View {
 //                Rectangle()
 //                RoundedRectangle(cornerRadius: 20)
 //                Ellipse()
+                Circle()
                 
             ) //this will give you shape of the image like circle
     }
