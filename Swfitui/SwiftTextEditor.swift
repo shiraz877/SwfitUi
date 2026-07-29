@@ -13,7 +13,7 @@ struct SwiftTextEditor: View {
     var body: some View {
         NavigationStack {
             VStack{
-                TextField("hello", text: $textFieldText)
+                TextEditor(text: $textFieldText)
                     .frame(height: 500)
                     .foregroundColor(.black)
                     .background(.gray.opacity(0.3))
